@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058157094684",
+    "project_id": "messengerapp-a600b",
+    "storage_bucket": "messengerapp-a600b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058157094684:android:1c1a94a07f7dce6e8ffcd9",
+        "android_client_info": {
+          "package_name": "com.ako.letstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058157094684-vlbvr9rdopndgeim21f6hqtomshg4mom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiFCgT4OCB1BSd2gjyfQ3P3RUWklmvvoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058157094684-vlbvr9rdopndgeim21f6hqtomshg4mom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

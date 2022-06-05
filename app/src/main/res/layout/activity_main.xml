@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61F4AC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/signinxml">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="150dp">
+        <ImageButton
+            android:id="@+id/userimage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/imagebg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/userimage"-->
+<!--            android:layout_width="96dp"-->
+<!--            android:layout_height="96dp"-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:civ_border_width="2dp"-->
+<!--            app:civ_border_color="#FF000000"/>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         <EditText
+             android:hint="Enter your name"
+            android:background="@drawable/bglogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:id="@+id/name"/>
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter your email"
+        android:background="@drawable/bglogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/email"/>
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Enter your passward"
+        android:background="@drawable/bglogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/passward"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign up"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:background="@drawable/bglogin"
+        android:layout_margin="10dp"
+        android:id="@+id/Signup"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_login_in_here"
+        android:textSize="12sp"
+        android:textColor="#651FFF"
+        android:id="@+id/loginpage"
+        android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loginxml"
+        android:orientation="vertical">
+        <EditText
+            android:layout_marginTop="100dp"
+            android:hint="Enter your Email"
+            android:background="@drawable/bglogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/loginemail"/>
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Enter your passward"
+            android:background="@drawable/bglogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:id="@+id/loginpassward"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Log In"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:background="@drawable/bglogin"
+            android:layout_margin="10dp"
+            android:id="@+id/Login"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+</LinearLayout>
